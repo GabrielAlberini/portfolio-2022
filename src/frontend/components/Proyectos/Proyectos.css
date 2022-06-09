@@ -13,6 +13,10 @@
     font-size: 3rem;
     margin: 1rem 0 2rem 0;
 }
+.section-proyectos h4{
+    color: var(--morado-claro);
+    margin: 0rem 0 2rem 0;
+}
 
 @media (max-width: 780px) {
     .section-proyectos {
