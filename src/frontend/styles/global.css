@@ -1,0 +1,28 @@
+:root {
+    --morado-claro: #C2ADE0;
+    --morado-oscuro: #B29ECF;
+    --verde-claro: #004138;
+    --verde-oscuro: #01342D;
+    --verde-mas-oscuro: #1B2824;
+    --gris: #C4C1C5;
+}
+
+@font-face {
+    font-family: Maragsa;
+    src: url('../../font/maragsa.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Maragsa;
+    transition: .3s all ease;
+}
+
+.section {
+    min-height: 100vh;
+    max-width: 1400px;
+    padding: 2rem;
+}
+

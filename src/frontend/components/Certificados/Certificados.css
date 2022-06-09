@@ -1,0 +1,47 @@
+.section-certificados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: var(--morado-oscuro);
+}
+
+.section-certificados h2{
+    color: var(--verde-claro);
+    font-size: 3rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.cont-main-certificados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.cont-main-certificados img{
+    width: 400px;
+} 
+
+.cont-main-certificados img:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.064);;
+} 
+
+@media (max-width: 780px) {
+    .section-proyectos {
+        justify-content: start;
+        min-height: auto;
+    }
+
+    .cont-main-certificados {
+        grid-template-columns: 1fr;
+    }
+
+    .cont-main-certificados img{
+        width: 100%;
+    } 
+}
+
+

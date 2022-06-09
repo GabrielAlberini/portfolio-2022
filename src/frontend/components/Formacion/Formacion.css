@@ -1,0 +1,65 @@
+.section-formacion {
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+
+.cont-main-skills-formacion,
+.cont-main-bio-formacion {
+    width: 50%;
+    background-color: var(--morado-oscuro);
+    padding: 2rem 8rem;
+}
+
+.cont-main-bio-formacion {
+    background-color: var(--morado-claro);
+}
+
+.cont-main-bio-formacion,
+.cont-main-skills-formacion {
+    position: relative;
+}
+
+.titulo-formacion {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.formacion-decodado-1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.formacion-decodado-2 {
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transform: rotate(75deg);
+}
+
+@media (max-width: 780px) {
+    .section-formacion {
+        flex-direction: column;
+    }
+
+    .cont-main-skills-formacion,
+    .cont-main-bio-formacion {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .formacion-decodado-1 {
+        width: 30px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .formacion-decodado-2 {
+        width: 30px;
+        top: 20px;
+        right: 20px;
+    }
+}
