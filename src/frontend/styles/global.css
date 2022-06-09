@@ -12,12 +12,25 @@
     src: url('../../font/maragsa.ttf');
 }
 
+@font-face {
+    font-family: Chivo;
+    src: url('../../font/ChivoLight.ttf');
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Maragsa;
     transition: .3s all ease;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Maragsa;
+}
+
+p {
+    font-family: Chivo;
 }
 
 .section {

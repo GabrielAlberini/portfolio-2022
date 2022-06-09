@@ -8,7 +8,6 @@ const Header = () => {
           Gabriel <br /> Alberini
         </h1>
         <h3>Desarrollador Web Freelancer</h3>
-        <h4>Haz click para más información</h4>
       </div>
       <div className="cont-img-header">
         <img
