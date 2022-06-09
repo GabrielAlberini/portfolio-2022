@@ -22,6 +22,17 @@ const PROYECTOS = [
       "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
   },
   {
+    nombre: "Universo Paralelo",
+    URLimagen: "./assets/proyectos/universo.png",
+    URLdetail:"./assets/imagenes-proyecto/universo.png",
+    descripcion:
+      "Sitio web realizado en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
+    webLink: "https://universoparalelo.com.ar/",
+    repoLink: "https://github.com/GabrielAlberini/universo-paralelo",
+    herramientas:
+      "Hooks, Bootstrap, Modal Bootstrap, React-router, React Helmet",
+  },
+  {
     nombre: "Chefpeare",
     URLimagen: "./assets/proyectos/chefpearelogo.png",
     URLdetail:"./assets/imagenes-proyecto/chefpeare.png",
