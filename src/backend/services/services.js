@@ -1,51 +1,77 @@
 const PROYECTOS = [
   {
-    nombre: "",
+    nombre: "Nati Fessia",
     URLimagen: "./assets/proyectos/natifessia.png",
-    descripcion: "",
-    webLink: "",
-    repoLink: "",
-    herramientas: "",
+    URLdetail:"./assets/imagenes-proyecto/natifessia.png",
+    descripcion:
+      "Landing Page realizada en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
+    webLink: "https://natifessia.com.ar",
+    repoLink: "https://github.com/GabrielAlberini/nati-fessia",
+    herramientas:
+      "Hooks, Bootstrap, Modal Bootstrap, React-router, React Helmet.",
   },
   {
-    nombre: "",
+    nombre: "Repiquetérea",
     URLimagen: "./assets/proyectos/milalogo.png",
-    descripcion: "",
-    webLink: "",
-    repoLink: "",
-    herramientas: "",
+    URLdetail:"./assets/imagenes-proyecto/repiqueterea.png",
+    descripcion:
+      "Sitio Web realizado en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
+    webLink: "https://www.repiqueterea.com.ar/",
+    repoLink: "https://github.com/GabrielAlberini/repiqueterea",
+    herramientas:
+      "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
   },
   {
-    nombre: "",
+    nombre: "Chefpeare",
     URLimagen: "./assets/proyectos/chefpearelogo.png",
-    descripcion: "",
-    webLink: "",
-    repoLink: "",
-    herramientas: "",
+    URLdetail:"./assets/imagenes-proyecto/chefpeare.png",
+    descripcion:
+      "Landing Page realizada en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
+    webLink: "https://chefpeare.vercel.app/",
+    repoLink: "https://github.com/GabrielAlberini/chefpeare",
+    herramientas:
+      "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
   },
   {
-    nombre: "",
+    nombre: "Ubuntu",
     URLimagen: "./assets/proyectos/ubuntulogo.png",
-    descripcion: "",
-    webLink: "",
-    repoLink: "",
-    herramientas: "",
+    URLdetail:"./assets/imagenes-proyecto/ubuntu.png",
+    descripcion:
+      "Landing Page realizada en HTML, CSS y Javascript Vanilla en cooperación de equipo de desarrollo.",
+    webLink: "https://www.carmensojo.com.ar/",
+    repoLink: "https://github.com/GabrielAlberini/ubuntu-project",
+    herramientas:
+      "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
   },
   {
-    nombre: "",
+    nombre: "Bripaem",
     URLimagen: "./assets/proyectos/bripaemlogo.png",
-    descripcion: "",
-    webLink: "",
+    URLdetail:"./assets/imagenes-proyecto/bripaem.png",
+    descripcion: "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
+    webLink: "https://bripaem.org/",
     repoLink: "",
-    herramientas: "",
+    herramientas: "Wordpress, plugins, child theme.",
   },
   {
-    nombre: "",
-    URLimagen: "./assets/proyectos/linologo.png",
-    descripcion: "",
-    webLink: "",
+    nombre: "Dr. Schuegers",
+    URLimagen: "./assets/proyectos/drschuegers.png",
+    URLdetail:"./assets/imagenes-proyecto/drschuegers.png",
+    descripcion:
+    "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
+    webLink: "https://drschuegers.com.ar",
     repoLink: "",
-    herramientas: "",
+    herramientas:
+    "Wordpress, plugins, child theme.",
+  },
+  {
+    nombre: "Lino | Plant Based",
+    URLimagen: "./assets/proyectos/linologo.png",
+    URLdetail:"./assets/imagenes-proyecto/lino.png",
+    descripcion:
+      "Desarrollo de sistema e-commerce realizado React-Frontend y Firebase-Backend.",
+    webLink: "https://lino-virtual-shop.vercel.app/",
+    repoLink: "https://github.com/GabrielAlberini/lino-virtual-shop",
+    herramientas: "Hooks, Bootstrap, React-router, Animate CSS, MUI UI",
   },
 ];
 

@@ -9,9 +9,6 @@ const VistaCertificado = ({
   certificadoModal
 }) => {
 
-  console.log("cert",certificadoModal)
-
-
   return (
     <Modal size="lg" centered show={showModal} onHide={() => setShowModal(false)}>
       <Helmet>

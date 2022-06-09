@@ -1,0 +1,40 @@
+.cont-img-proyecto-detail {
+    width: 80%;
+}
+
+.cont-img-proyecto-detail img {
+    width: 100%;
+}
+
+.btn-detail {
+    border: none;
+    padding: .3rem 1rem;
+    background-color: var(--morado-claro);
+    color: white;
+    border: 1px solid var(--verde-claro);
+    text-decoration: none;
+}
+
+.btn-detail:hover {
+    border: none;
+    padding: .3rem 1rem;
+    background-color: var(--verde-claro);
+    color: white;
+    border: 1px solid var(--morado-claro);
+}
+
+.cont-info-proyecto {
+    width: 100%;
+    padding: 2rem 0 0 0;
+    font-size: 1.1rem;
+}
+
+.herramientas-proyecto {
+    color: var(--verde-oscuro);
+}
+
+.cont-botones-proyecto {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
