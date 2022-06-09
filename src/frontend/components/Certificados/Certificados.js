@@ -20,6 +20,7 @@ const Certificados = () => {
       />
       <section className="section-certificados">
         <h2>Certificaciones</h2>
+        <h4>Haz click para mas información</h4>
         <article className="cont-main-certificados">
           {CERTIFICADOS.map((certificado) => {
             return (

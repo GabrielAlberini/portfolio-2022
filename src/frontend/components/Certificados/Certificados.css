@@ -14,6 +14,11 @@
     margin: 1rem 0 2rem 0;
 }
 
+.section-certificados h4{
+    color: var(--verde-claro);
+    margin: 0rem 0 2rem 0;
+}
+
 .cont-main-certificados {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

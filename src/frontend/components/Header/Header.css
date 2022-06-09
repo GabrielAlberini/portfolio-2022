@@ -41,6 +41,7 @@
     top: 30px;
     right: 100px;
     width: 200px;
+    text-decoration: none;
 }
 
 .btn-main:hover {

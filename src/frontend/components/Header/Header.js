@@ -8,6 +8,7 @@ const Header = () => {
           Gabriel <br /> Alberini
         </h1>
         <h3>Desarrollador Web Freelancer</h3>
+        <h4>Haz click para más información</h4>
       </div>
       <div className="cont-img-header">
         <img
@@ -21,7 +22,14 @@ const Header = () => {
           alt="imagen de fondo"
         />
       </div>
-      <button className="btn-main">TRABAJEMOS JUNTOS</button>
+      <a
+        href="https://wa.me/+543498528087?text=¡Hola! Tengo un proyecto en mente."
+        target="_blank"
+        rel="noreferrer"
+        className="btn-main"
+      >
+        WhatsApp
+      </a>
     </header>
   );
 };
