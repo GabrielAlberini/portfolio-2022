@@ -35,7 +35,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .section-proyectos {
         justify-content: start;
         min-height: auto;
