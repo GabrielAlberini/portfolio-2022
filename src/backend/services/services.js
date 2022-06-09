@@ -52,43 +52,43 @@ const PROYECTOS = [
 const CERTIFICADOS = [
   {
     url: "./assets/certificaciones/fontend.png",
-    nombre: "carrera-de-desarrollo-frontend-react"
+    nombre: "Carrera de Desarrollo Frontend React",
   },
   {
     url: "./assets/certificaciones/react.png",
-    nombre: "react-js"
+    nombre: "React Js - Coderhouse",
   },
   {
     url: "./assets/certificaciones/jscoder.png",
-    nombre: "javascript-coderhouse"
+    nombre: "Javascript - Coderhouse",
   },
   {
     url: "./assets/certificaciones/desarrolloweb.png",
-    nombre: "desarrollo-web-coderhouse"
+    nombre: "Desarrollo Web - Coderhouse",
   },
   {
     url: "./assets/certificaciones/wordpress.png",
-    nombre: "wordpress-coderhouse"
+    nombre: "Wordpress Coderhouse",
   },
   {
     url: "./assets/certificaciones/github.png",
-    nombre: "github-para-programadores"
+    nombre: "Github Para Programadores",
   },
   {
     url: "./assets/certificaciones/scrum.png",
-    nombre: "scrum-fundamentals-certified"
+    nombre: "Scrum Fundamentals Certified",
   },
   {
     url: "./assets/certificaciones/js.png",
-    nombre: "javascript-esencial"
+    nombre: "Javascript Esencial",
   },
   {
     url: "./assets/certificaciones/responsive.png",
-    nombre: "responsive-web-design"
+    nombre: "Responsive Web Design",
   },
   {
     url: "./assets/certificaciones/ui.png",
-    nombre: "diseño-de-interfaz-ui-esencial"
+    nombre: "Diseño de Interfaz - UI esencial",
   },
 ];
 

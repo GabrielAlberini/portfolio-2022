@@ -1,28 +1,34 @@
 
 import "./VistaCertificado.css";
 import { Modal, Stack } from "react-bootstrap";
+import {Helmet} from "react-helmet";
 
 const VistaCertificado = ({
-  isModalAñadir,
-  setIsModalAñadir,
-  url
+  showModal,
+  setShowModal,
+  certificadoModal
 }) => {
+
+  console.log("cert",certificadoModal)
 
 
   return (
-    <Modal centered show={isModalAñadir} onHide={() => setIsModalAñadir(false)}>
+    <Modal size="lg" centered show={showModal} onHide={() => setShowModal(false)}>
+      <Helmet>
+        <title>{certificadoModal.nombre} | Gabriel Alberini Portfolio</title>
+      </Helmet>
       <Modal.Header>
-        <Modal.Title>Imágen de actividad</Modal.Title>
+        <Modal.Title>{certificadoModal.nombre}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Stack>
           <div className="cont-img-actividad-detail">
-            <img src={url} alt="foto de imagen de actividad" />
+            <img src={certificadoModal.url} alt="foto de imagen de actividad" />
           </div>
         </Stack>
       </Modal.Body>
       <Modal.Footer>
-        <button className="btn-main" onClick={() => setIsModalAñadir(false)}>
+        <button className="btn-detail" onClick={() => setShowModal(false)}>
           Cerrar
         </button>
       </Modal.Footer>

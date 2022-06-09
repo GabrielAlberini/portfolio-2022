@@ -1,7 +1,23 @@
 .cont-img-actividad-detail {
-    width: auto;
+    width: 100%;
 }
 
 .cont-img-actividad-detail > img {
-    width: auto;
+    width: 100%;
+}
+
+.btn-detail {
+    border: none;
+    padding: .3rem 1rem;
+    background-color: var(--morado-claro);
+    color: white;
+    border: 1px solid var(--verde-claro);
+}
+
+.btn-detail:hover {
+    border: none;
+    padding: .3rem 1rem;
+    background-color: var(--verde-claro);
+    color: white;
+    border: 1px solid var(--morado-claro);
 }
