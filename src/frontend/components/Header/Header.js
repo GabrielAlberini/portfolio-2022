@@ -28,7 +28,7 @@ const Header = () => {
         rel="noreferrer"
         className="btn-main"
       >
-        WhatsApp
+        Enviar un mensaje
       </a>
     </header>
   );
