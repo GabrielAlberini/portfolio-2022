@@ -29,13 +29,13 @@
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.064);;
 } 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .cont-main-certificados {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     .section-proyectos {
         justify-content: start;
         min-height: auto;

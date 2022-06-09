@@ -19,7 +19,7 @@ const Certificados = () => {
         certificadoModal={certificadoModal}
       />
       <section className="section-certificados">
-        <h2>Certificacones</h2>
+        <h2>Certificaciones</h2>
         <article className="cont-main-certificados">
           {CERTIFICADOS.map((certificado) => {
             return (
