@@ -15,7 +15,7 @@ const VistaCertificado = ({
         <title>{certificadoModal.nombre} | Gabriel Alberini Portfolio</title>
       </Helmet>
       <Modal.Header>
-        <Modal.Title>{certificadoModal.nombre}</Modal.Title>
+        <Modal.Title><h2 className="title-certificado">{certificadoModal.nombre}</h2></Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Stack>

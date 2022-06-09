@@ -16,7 +16,7 @@ const VistaProyecto = ({ showModal, setShowModal, proyectoModal }) => {
         </Helmet>
         <Modal.Header>
           <Modal.Title>
-            <h2>{proyectoModal.nombre}</h2>
+            <h2 className="titulo-proyecto">{proyectoModal.nombre}</h2>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

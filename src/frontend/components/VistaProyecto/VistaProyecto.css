@@ -10,7 +10,7 @@
     border: none;
     padding: .3rem 1rem;
     background-color: var(--morado-claro);
-    color: white;
+    color: var(--verde-claro);
     border: 1px solid var(--verde-claro);
     text-decoration: none;
 }
@@ -27,14 +27,25 @@
     width: 100%;
     padding: 2rem 0 0 0;
     font-size: 1.1rem;
+    color: var(--morado-claro);
 }
 
+.titulo-proyecto,
 .herramientas-proyecto {
-    color: var(--verde-oscuro);
+    color: var(--morado-claro);
 }
 
 .cont-botones-proyecto {
     margin-top: 1rem;
     display: flex;
     gap: 1rem;
+}
+
+.modal-content {
+    background-color: var(--verde-claro) !important;
+}
+
+.modal-footer,
+.modal-header {
+    border: none !important;
 }
