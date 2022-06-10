@@ -85,7 +85,7 @@ const PROYECTOS = [
     herramientas: "Hooks, Bootstrap, React-router, Animate CSS, MUI UI",
   },
   {
-    nombre: "Lino | Plant Based",
+    nombre: "Dios, o no ser",
     URLimagen: "./assets/proyectos/dios.png",
     URLdetail:"./assets/imagenes-proyecto/dios.png",
     descripcion:
