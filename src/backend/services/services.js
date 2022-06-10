@@ -84,6 +84,16 @@ const PROYECTOS = [
     repoLink: "https://github.com/GabrielAlberini/lino-virtual-shop",
     herramientas: "Hooks, Bootstrap, React-router, Animate CSS, MUI UI",
   },
+  {
+    nombre: "Lino | Plant Based",
+    URLimagen: "./assets/proyectos/dios.png",
+    URLdetail:"./assets/imagenes-proyecto/dios.png",
+    descripcion:
+      "Landing Page realizada en React-Frontend.",
+    webLink: "https://dios-o-no-ser.vercel.app/",
+    repoLink: "https://github.com/GabrielAlberini/dios-o-no-ser",
+    herramientas: "Hooks, Bootstrap, React-router, Styled Components",
+  },
 ];
 
 const CERTIFICADOS = [
