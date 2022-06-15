@@ -6,6 +6,7 @@ const PROYECTOS = [
     descripcion:
       "Landing Page realizada en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://natifessia.com.ar",
+    webLinkAdmin: "https://natifessia.com.ar/admin",
     repoLink: "https://github.com/GabrielAlberini/nati-fessia",
     herramientas:
       "Hooks, Bootstrap, Modal Bootstrap, React-router, React Helmet.",
@@ -17,6 +18,7 @@ const PROYECTOS = [
     descripcion:
       "Sitio Web realizado en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://www.repiqueterea.com.ar/",
+    webLinkAdmin: "https://www.repiqueterea.com.ar/admin",
     repoLink: "https://github.com/GabrielAlberini/repiqueterea",
     herramientas:
       "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
@@ -28,6 +30,7 @@ const PROYECTOS = [
     descripcion:
       "Sitio web realizado en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://universoparalelo.com.ar/",
+    webLinkAdmin: "",
     repoLink: "https://github.com/GabrielAlberini/universo-paralelo",
     herramientas:
       "Hooks, Bootstrap, Modal Bootstrap, React-router, React Helmet",
@@ -39,6 +42,7 @@ const PROYECTOS = [
     descripcion:
       "Landing Page realizada en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://chefpeare.vercel.app/",
+    webLinkAdmin: "",
     repoLink: "https://github.com/GabrielAlberini/chefpeare",
     herramientas:
       "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
@@ -50,6 +54,7 @@ const PROYECTOS = [
     descripcion:
       "Landing Page realizada en HTML, CSS y Javascript Vanilla en cooperación de equipo de desarrollo.",
     webLink: "https://www.carmensojo.com.ar/",
+    webLinkAdmin: "",
     repoLink: "https://github.com/GabrielAlberini/ubuntu-project",
     herramientas:
       "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
@@ -60,6 +65,7 @@ const PROYECTOS = [
     URLdetail:"./assets/imagenes-proyecto/bripaem.png",
     descripcion: "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
     webLink: "https://bripaem.org/",
+    webLinkAdmin: "",
     repoLink: "",
     herramientas: "Wordpress, plugins, child theme.",
   },
@@ -70,6 +76,7 @@ const PROYECTOS = [
     descripcion:
     "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
     webLink: "https://drschuegers.com.ar",
+    webLinkAdmin: "",
     repoLink: "",
     herramientas:
     "Wordpress, plugins, child theme.",
@@ -81,6 +88,7 @@ const PROYECTOS = [
     descripcion:
       "Desarrollo de sistema e-commerce realizado React-Frontend y Firebase-Backend.",
     webLink: "https://lino-virtual-shop.vercel.app/",
+    webLinkAdmin: "",
     repoLink: "https://github.com/GabrielAlberini/lino-virtual-shop",
     herramientas: "Hooks, Bootstrap, React-router, Animate CSS, MUI UI",
   },
@@ -91,6 +99,7 @@ const PROYECTOS = [
     descripcion:
       "Landing Page realizada en React-Frontend.",
     webLink: "https://dios-o-no-ser.vercel.app/",
+    webLinkAdmin: "",
     repoLink: "https://github.com/GabrielAlberini/dios-o-no-ser",
     herramientas: "Hooks, Bootstrap, React-router, Styled Components",
   },

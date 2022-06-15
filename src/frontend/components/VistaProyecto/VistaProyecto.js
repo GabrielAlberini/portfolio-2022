@@ -2,7 +2,9 @@ import "./VistaProyecto.css";
 import { Modal, Stack } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
-const VistaProyecto = ({ showModal, setShowModal, proyectoModal }) => {
+const VistaProyecto = ({ showModal, setShowModal, proyectoModal }
+  ) => {
+    console.log(proyectoModal.webLinkAdmin)
   return (
     <>
       <Modal
@@ -42,6 +44,16 @@ const VistaProyecto = ({ showModal, setShowModal, proyectoModal }) => {
               >
                 Sitio Web
               </a>
+              {proyectoModal.webLinkAdmin !== "" && (
+                <a
+                  href={proyectoModal.webLinkAdmin}
+                  rel="noreferrer"
+                  target="_blank"
+                  className="btn-detail"
+                >
+                  Panel administración
+                </a>
+              )}
               {proyectoModal.repoLink !== "" && (
                 <a
                   href={proyectoModal.repoLink}
