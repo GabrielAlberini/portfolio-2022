@@ -59,16 +59,16 @@ const PROYECTOS = [
     herramientas:
       "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
   },
-  {
-    nombre: "Bripaem",
-    URLimagen: "./assets/proyectos/bripaemlogo.png",
-    URLdetail:"./assets/imagenes-proyecto/bripaem.png",
-    descripcion: "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
-    webLink: "https://bripaem.org/",
-    webLinkAdmin: "",
-    repoLink: "",
-    herramientas: "Wordpress, plugins, child theme.",
-  },
+  // {
+  //   nombre: "Bripaem",
+  //   URLimagen: "./assets/proyectos/bripaemlogo.png",
+  //   URLdetail:"./assets/imagenes-proyecto/bripaem.png",
+  //   descripcion: "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
+  //   webLink: "https://bripaem.org/",
+  //   webLinkAdmin: "",
+  //   repoLink: "",
+  //   herramientas: "Wordpress, plugins, child theme.",
+  // },
   {
     nombre: "Dr. Schuegers",
     URLimagen: "./assets/proyectos/drschuegers.png",

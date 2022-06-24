@@ -16,6 +16,7 @@ const SliderProyectos = () => {
     responsiveClass: true,
     nav: false,
     dots: false,
+    autoplayTimeout: 1500,
     autoplay: true,
     loop: true,
     responsive: {
