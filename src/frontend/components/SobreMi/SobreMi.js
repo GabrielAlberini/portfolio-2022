@@ -17,7 +17,17 @@ const SobreMi = () => {
             </div>
           </div>
           <p>
-            Mis amigos me dicen Gabo, soy Desarrollador Web especializado en React JS y SEO on page. Además del mundo de la programación y la tecnología disfruto de hablar con las personas y tratar de materializar ideas.
+            Mis amigos me dicen Gabo, soy Desarrollador Web especializado en
+            React y SEO on page. Además del mundo IT, me encanta el mundo del
+            diseño, hablar con las personas y materializar deseos.
+          </p>
+          <p>
+            Actualmente trabajo como desarrollador web freelancer ofreciendo
+            servicio a distintas instituciones y proyectos particulares.
+          </p>
+          <p>
+            También disfruto mucho de compartir lo que se, lo cúal me llevo a
+            ser profesor de Desarrollo Web Frontend en ADA ITW.
           </p>
         </div>
       </div>

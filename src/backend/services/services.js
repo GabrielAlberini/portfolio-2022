@@ -2,7 +2,7 @@ const PROYECTOS = [
   {
     nombre: "Nati Fessia",
     URLimagen: "./assets/proyectos/natifessia.png",
-    URLdetail:"./assets/imagenes-proyecto/natifessia.png",
+    URLdetail: "./assets/imagenes-proyecto/natifessia.png",
     descripcion:
       "Landing Page realizada en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://natifessia.com.ar",
@@ -14,7 +14,7 @@ const PROYECTOS = [
   {
     nombre: "Repiquetérea",
     URLimagen: "./assets/proyectos/milalogo.png",
-    URLdetail:"./assets/imagenes-proyecto/repiqueterea.png",
+    URLdetail: "./assets/imagenes-proyecto/repiqueterea.png",
     descripcion:
       "Sitio Web realizado en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://www.repiqueterea.com.ar/",
@@ -24,9 +24,20 @@ const PROYECTOS = [
       "Hooks, Bootstrap, Modal Bootstrap, React-router, Owl Carousel, React Helmet",
   },
   {
+    nombre: "Instituto San Andres",
+    URLimagen: "./assets/proyectos/isanandres.png",
+    URLdetail: "./assets/imagenes-proyecto/isanandres.png",
+    descripcion:
+      "Sitio web institucional realizado en Wordpress, actualmente cuenta con forumularios de inscripción a los distintos cursos. A futuro, contará con una plataforma de venta de cursos.",
+    webLink: "https://isanandres.com.ar/",
+    webLinkAdmin: "",
+    repoLink: "",
+    herramientas: "Woordpress",
+  },
+  {
     nombre: "Universo Paralelo",
     URLimagen: "./assets/proyectos/universo.png",
-    URLdetail:"./assets/imagenes-proyecto/universo.png",
+    URLdetail: "./assets/imagenes-proyecto/universo.png",
     descripcion:
       "Sitio web realizado en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://universoparalelo.com.ar/",
@@ -38,7 +49,7 @@ const PROYECTOS = [
   {
     nombre: "Chefpeare",
     URLimagen: "./assets/proyectos/chefpearelogo.png",
-    URLdetail:"./assets/imagenes-proyecto/chefpeare.png",
+    URLdetail: "./assets/imagenes-proyecto/chefpeare.png",
     descripcion:
       "Landing Page realizada en React-Frontend y Firebase-Backend. Incluye plataforma de autoadministración y sistema de login para ingresar al panel.",
     webLink: "https://chefpeare.vercel.app/",
@@ -50,7 +61,7 @@ const PROYECTOS = [
   {
     nombre: "Ubuntu",
     URLimagen: "./assets/proyectos/ubuntulogo.png",
-    URLdetail:"./assets/imagenes-proyecto/ubuntu.png",
+    URLdetail: "./assets/imagenes-proyecto/ubuntu.png",
     descripcion:
       "Landing Page realizada en HTML, CSS y Javascript Vanilla en cooperación de equipo de desarrollo.",
     webLink: "https://www.carmensojo.com.ar/",
@@ -62,8 +73,9 @@ const PROYECTOS = [
   {
     nombre: "Bripaem",
     URLimagen: "./assets/proyectos/bripaemlogo.png",
-    URLdetail:"./assets/imagenes-proyecto/bripaem.png",
-    descripcion: "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
+    URLdetail: "./assets/imagenes-proyecto/bripaem.png",
+    descripcion:
+      "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
     webLink: "https://bripaem.org/",
     webLinkAdmin: "",
     repoLink: "",
@@ -72,19 +84,18 @@ const PROYECTOS = [
   {
     nombre: "Dr. Schuegers",
     URLimagen: "./assets/proyectos/drschuegers.png",
-    URLdetail:"./assets/imagenes-proyecto/drschuegers.png",
+    URLdetail: "./assets/imagenes-proyecto/drschuegers.png",
     descripcion:
-    "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
+      "Desarrollo y administración de Sitio Web Institucional en Wordpress.",
     webLink: "https://drschuegers.com.ar",
     webLinkAdmin: "",
     repoLink: "",
-    herramientas:
-    "Wordpress, plugins, child theme.",
+    herramientas: "Wordpress, plugins, child theme.",
   },
   {
     nombre: "Lino | Plant Based",
     URLimagen: "./assets/proyectos/linologo.png",
-    URLdetail:"./assets/imagenes-proyecto/lino.png",
+    URLdetail: "./assets/imagenes-proyecto/lino.png",
     descripcion:
       "Desarrollo de sistema e-commerce realizado React-Frontend y Firebase-Backend.",
     webLink: "https://lino-virtual-shop.vercel.app/",
@@ -95,9 +106,8 @@ const PROYECTOS = [
   {
     nombre: "Dios, o no ser",
     URLimagen: "./assets/proyectos/dios.png",
-    URLdetail:"./assets/imagenes-proyecto/dios.png",
-    descripcion:
-      "Landing Page realizada en React-Frontend.",
+    URLdetail: "./assets/imagenes-proyecto/dios.png",
+    descripcion: "Landing Page realizada en React-Frontend.",
     webLink: "https://dios-o-no-ser.vercel.app/",
     webLinkAdmin: "",
     repoLink: "https://github.com/GabrielAlberini/dios-o-no-ser",
