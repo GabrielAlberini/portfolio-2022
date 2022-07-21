@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .cont-main-img-sobre-mi,
@@ -83,7 +83,7 @@
   .cont-main-img-sobre-mi,
   .cont-main-txt-sobre-mi {
     width: 100%;
-    height: 100%;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,12 @@
 
   .cont-decorado-2 {
     position: absolute;
-    top: -60px;
+    top: -20px;
     left: 0;
+    width: 80px;
+  }
+
+  .cont-decorado-2 img {
+    width: 100%;
   }
 }
